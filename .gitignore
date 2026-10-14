@@ -1,0 +1,16 @@
+# Zips de test
+*.zip
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
+*~
+
+# Dossiers d'idee
+node_modules/
+.vscode/
+.idea/
+
+# Clés privées si tu en génères plus tard
+*.pem
+*.key
