@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Citation du Jour",
+  "version": "1.0",
+  "description": "Une citation pour bien commencer",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
